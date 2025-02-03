@@ -1,2 +1,2 @@
 # RightClickRedone
- Mod aimed at rebalancing the right-click functionality by editing vanilla block cards. 
+ Mod aimed at rebalancing the stats of many cards, especially block cards, and reworking the effects of certain block cards.
