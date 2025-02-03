@@ -55,7 +55,7 @@ namespace RightClickRedone {
             static void Rebalance() { 
                 
                 foreach (var card in CardChoice.instance.cards) {
-                    switch (card.cardName) {
+                    switch (card.cardName.ToUpper()) {
                         case "POISON": {
                                 if (SWORD.Value) {
 
@@ -65,17 +65,6 @@ namespace RightClickRedone {
                                     card.cardStats.ToList()[1].amount = "-20%";
 
                                     card.GetComponent<Gun>().reloadTime *= 0.8f;
-
-                                    /*
-                                    var infoList = card.cardStats.ToList();
-                                    if (infoList.Count > 3) { break; }
-                                    infoList[1].amount = "-20%";
-                                    infoList[1].stat = "Reload time";
-                                    card.cardStats = infoList.ToArray();
-
-                                    var gun = card.GetComponent<Gun>();
-                                    gun.reloadTime *= 0.8f;
-                                    */
 
                                 } else {
 

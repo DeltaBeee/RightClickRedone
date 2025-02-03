@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RightClickRedone")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1994021ceeebe9ccb43149d0d1b5301eaba349e1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66ff675be6f1b1db107d9fdf42e09f52f47d5c7e")]
 [assembly: System.Reflection.AssemblyProductAttribute("RightClickRedone")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RightClickRedone")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
